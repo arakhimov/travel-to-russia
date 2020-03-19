@@ -1,0 +1,38 @@
+@import url('__image/place__image.css');
+@import url('__paragraph/place__paragraph.css');
+@import url('__title/place__title.css');
+@import url('__paragraph-container/place__pagagraph-container.css');
+@import url('__content/place__content.css');
+@import url('__header/place__header.css');
+
+
+/* для разрешения 1280px и выше */
+@media screen and (min-width: 1280px) {
+    .place:not(:last-child) {
+        padding-bottom: 72px;
+    }
+}
+/* для разрешений от 1024px до 1280px */
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .place:not(:last-child) {
+        padding-bottom: 72px;
+    }
+}
+/* для разрешений от 768px до 1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .place:not(:last-child) {
+        padding-bottom: 72px;
+    }
+}
+/* для разрешений от 425px до 768px */
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .place:not(:last-child) {
+        padding-bottom: 87px;
+    }
+}
+/* для разрешений до 425px */
+@media screen and (max-width: 425px) {
+    .place:not(:last-child) {
+        padding-bottom: 48px;
+    }
+}

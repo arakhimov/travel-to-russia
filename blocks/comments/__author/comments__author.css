@@ -1,0 +1,17 @@
+.comments__author {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-style: normal;
+    font-weight: 900;
+    color: #fff;
+    margin: 0px;
+}
+
+/* для разрешения 1280px и выше */
+@media screen and (max-width: 1023px) {
+    .comments__author {
+        margin-bottom: 24px;
+        text-align: center;
+    }
+}

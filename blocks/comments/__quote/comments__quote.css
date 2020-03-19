@@ -1,0 +1,30 @@
+.comments__quote {
+    margin: 0px;
+    font-size: 0.9rem;
+    line-height: 1.7;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #fff;
+}
+
+/* для разрешения 1280px и выше */
+@media screen and (min-width: 1280px) {
+    .comments__quote {
+        margin-bottom: 24px;
+    }
+}
+/* для разрешений от 1024px до 1280px */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .comments__quote {
+        margin-bottom: 16px;
+    }
+}
+/* для разрешений до 1024px */
+@media screen and (max-width: 1023px) {
+    .comments__quote {
+        order: 2;
+    }
+    
+}
+

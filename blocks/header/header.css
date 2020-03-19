@@ -1,0 +1,44 @@
+@import url('__logo/header__logo.css');
+
+.header {
+    padding-bottom: 48px;
+    padding-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* для разрешения 1280px и выше */
+@media screen and (min-width: 1280px) {
+    .header {
+        max-width: 1184px;
+    }
+}
+/* для разрешений от 1024px до 1280px */
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .header {
+        width: calc(100% - 256px);
+    }
+}
+/* для разрешений от 768px до 1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .header {
+        width: calc(100% - 96px);
+    }
+}
+/* для разрешений от 425px до 768px */
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .header {
+        width: calc(100% - 48px);
+    }
+}
+/* для разрешений до 425px */
+@media screen and (max-width: 425px) {
+    .header {
+        padding-top: 16px;
+        width: calc(100vw - 32px);
+    }
+}

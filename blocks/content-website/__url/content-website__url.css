@@ -1,0 +1,30 @@
+@import url('_section/content-website__url_section_barentsburg.css');
+@import url('_section/content-website__url_section_places.css');
+
+.content-website__url {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+    line-height: 1.7;
+    color: #fff;
+    transition: opacity .5s ease;
+}
+.content-website__url:hover {
+    opacity: .5;
+}
+/* .content-website__url {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+    line-height: 30px;
+    color: #fff;
+    transition: transform .5s ease, color .5s ease;
+}
+.content-website__url:hover {
+    color: #00bfff;
+    transform: scale(1.01);
+} */

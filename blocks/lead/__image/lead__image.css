@@ -1,0 +1,26 @@
+.lead__image {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    object-position: center;
+}
+
+/* для разрешения 1024px и выше */
+@media screen and (min-width: 1024px) {
+    .lead__image {
+        margin-bottom: 11px;
+    }
+}
+/* для разрешений от 425px до 1024px */
+@media screen and (min-width: 425px) and (max-width: 1023px) {
+    .lead__image {
+        margin-bottom: 16px;
+    }
+}
+/* для разрешений до 425px */
+@media screen and (max-width: 424px) {
+    .lead__image {
+        margin-bottom: 8px;
+    }
+}

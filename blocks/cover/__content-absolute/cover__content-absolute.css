@@ -1,0 +1,14 @@
+.cover__content-absolute {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0);
+}
+.cover__label:hover ~ .cover__content-absolute {
+  background: rgba(0,0,0,0.4);
+}

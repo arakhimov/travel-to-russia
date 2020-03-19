@@ -1,0 +1,22 @@
+.comments__image {
+    display: block;
+    width: 97px;
+    height: auto;           
+    object-fit: cover;
+    object-position: center;
+}
+
+/* для разрешений до 768px */
+@media  screen and (min-width: 769px) {
+    .comments__image {
+        margin-bottom: 42px;
+    }
+}
+/* для разрешений до 768px */
+@media  screen and (max-width: 768px) {
+    .comments__image {
+        margin-bottom: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

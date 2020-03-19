@@ -1,0 +1,42 @@
+@import url('__container/additional__container.css');
+@import url('__heading/additional__heading.css');
+@import url('__item-bg/additional__item-bg.css');
+@import url('__item/additional__item.css');
+@import url('__text/additional__text.css');
+@import url('__link/additional__link.css');
+
+.additional {
+    font-family: 'Inter', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 102px;
+}
+
+/* для разрешения 1280px и выше */
+@media screen and (min-width: 1280px) {
+    .additional {
+        width: 1184px;
+        padding-bottom: 102px;
+    }
+}
+/* для разрешений от 1024px до 1280px */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .additional {
+        width: calc(100vw - 96px);
+        padding-bottom: 102px;
+    }
+}
+/* для разрешений от 768px до 1024px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .additional {
+        width: calc(100vw - 48px);
+        padding-bottom: 102px;
+    }
+}
+/* для разрешений до 768px */
+@media  screen and (max-width: 767px) {
+    .additional {
+        width: calc(100vw - 32px);
+        padding-bottom: 64px;
+    }
+}

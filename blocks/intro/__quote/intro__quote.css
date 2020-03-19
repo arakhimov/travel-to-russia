@@ -1,0 +1,33 @@
+.intro__quote {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #fff;
+    margin: 0px;
+    margin-bottom: 24px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* для разрешения 1280px и выше */
+@media screen and (min-width: 1280px) {
+    .intro__quote {
+        width: 683px;
+    }
+}
+/* для разрешений от 425px до 1280px */
+@media screen and (max-width: 1280px) {
+    .intro__quote {
+        margin-bottom: 24px;
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+}
+/* для разрешений до 425px */
+@media screen and (max-width: 424px) {
+    .intro__quote {
+        margin-bottom: 32px;
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+}

@@ -1,0 +1,37 @@
+@import url('__url-heading/content-website__url-heading.css');
+@import url('__url/content-website__url.css');
+
+.content-website {
+    display: inline-block;
+}
+
+/* для разрешения 1280px и выше */
+@media screen and (min-width: 1280px) {
+    .content-website {
+        width: 484px;
+    }
+}
+/* для разрешений от 1024px до 1280px */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .content-website {
+        width: calc(57% - 40px);
+    }
+}
+/* для разрешений от 768px до 1024px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .content-website {
+        width: calc(57% - 32px);
+    }
+}
+/* для разрешений от 425px до 768px */
+@media screen and (min-width: 625px) and (max-width: 767px) {
+    .content-website {
+        width: calc(57% - 28px);
+    }
+}
+/* для разрешений до 625px */
+@media screen and (max-width: 624px) {
+    .content-website {
+        display: none;
+    }
+}

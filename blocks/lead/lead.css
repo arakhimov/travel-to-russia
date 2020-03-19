@@ -1,0 +1,37 @@
+@import url('__caption/lead__caption.css');
+@import url('__image/lead__image.css');
+@import url('__subtitle/lead__subtitle.css');
+@import url('__title/lead__title.css');
+
+.lead {
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 80px;
+}
+
+/* для разрешения 1280px и выше */
+@media screen and (min-width: 1280px) {
+    .lead {
+        max-width: 985px;
+    }
+}
+/* для разрешений от 1024px до 1280px */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .lead {
+        width: calc(100% - 296px);
+    }
+}
+/* для разрешений от 768px до 1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .lead {
+        width: calc(100% - 96px);
+    }
+}
+/* для разрешений до 768px */
+@media screen and (max-width: 767px) {
+    .lead {
+        width: 100vw;
+        padding-bottom: 64px;
+    }
+}

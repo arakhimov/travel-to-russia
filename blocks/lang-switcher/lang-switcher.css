@@ -1,0 +1,14 @@
+@import url('__item/lang-switcher__item.css');
+@import url('__link/lang-switcher__link.css');
+
+.lang-switcher  {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    /* для удаления отступов между inline-block элементами li обнуляем шрифт для родителя и 
+    заново прописываем его для потомка */
+    font-size: 0px;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}

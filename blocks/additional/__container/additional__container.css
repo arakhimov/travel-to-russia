@@ -1,0 +1,41 @@
+.additional__container {
+    /* width: 100%; */
+    /* display: flex; */
+    display: grid;
+    /* justify-content: space-between; */
+    
+}
+
+/* для разрешения 1280px и выше */
+@media screen and (min-width: 1280px) {
+    .additional__container {
+        width: 1184px;
+        grid-template-columns: repeat(auto-fill, 284px);
+        grid-gap: 16px;
+        padding-top: 72px;
+        /* border: 1px solid crimson; */
+    }
+}
+/* для разрешений от 1024px до 1280px */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .additional__container {
+        width: calc(100vw - 96px);
+        /* grid-template-columns: repeat(4, 284px); */
+        grid-gap: 16px;
+        padding-top: 72px;
+    }
+}
+/* для разрешений от 768px до 1024px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .additional__container {
+        width: calc(100vw - 48px);
+        padding-top: 72px;
+    }
+}
+/* для разрешений до 768px */
+@media  screen and (max-width: 767px) {
+    .additional__container {
+        width: calc(100vw - 32px);
+        padding-bottom: 64px;
+    }
+}

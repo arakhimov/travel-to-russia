@@ -1,0 +1,17 @@
+@import url('_active/lang-switcher__link_active.css');
+
+
+.lang-switcher__link {
+    color: #fff;
+    transition: opacity .5s ease;
+}
+.lang-switcher__link:hover {
+    opacity: .5;
+}
+/* .lang-switcher__link {
+    color: #fff;
+    transition: color .5s ease;
+} */
+/* .lang-switcher__link:hover {
+    color: #00bfff;
+} */

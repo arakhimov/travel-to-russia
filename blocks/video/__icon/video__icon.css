@@ -1,0 +1,23 @@
+.video__icon {
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 2;
+}
+
+/* для разрешений от 768px до 1023px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .video__icon {
+        top: 24px;
+        left: 24px; 
+    }
+}
+/* для разрешений от 425px до 768px */
+@media  screen and (max-width: 767px) {
+    .video__icon {
+        top: 16px;
+        left: 16px;  
+}
+}

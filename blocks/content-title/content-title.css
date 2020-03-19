@@ -1,0 +1,48 @@
+.content-title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    
+}
+
+/* для разрешения 1280px и выше */
+@media screen and (min-width: 1280px) {
+    .content-title {
+        width: 800px;
+        font-size: 4.5rem;
+        line-height: 1.1;
+        margin-bottom: 48px;
+    }
+}
+/* для разрешений от 1024px до 1280px */
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .content-title {
+        width: 72%;
+        font-size: 4.5rem;
+        line-height: 1.1;
+        margin-bottom: 48px;
+    }
+}
+/* для разрешений от 768px до 1024px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .content-title {
+        width: 72%;
+        font-size: 2.65rem;
+        line-height: 1.1;
+        margin-bottom: 24px;
+    }
+}
+/* для разрешений от 425px до 768px */
+@media  screen and (max-width: 767px) {
+    .content-title {
+        width: calc(100vw - 32px);
+        font-size: 2rem;
+        line-height: 1.1;
+        margin-bottom: 16px;
+    }
+}

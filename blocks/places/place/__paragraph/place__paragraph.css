@@ -1,0 +1,41 @@
+.place__paragraph {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #fff;
+    margin: 0px;
+}
+
+/* для разрешения 1280px и выше */
+@media screen and (min-width: 1280px) {
+    .place__paragraph {
+        font-size: 1.1rem;
+        line-height: 1.9;
+    }
+    .place__paragraph:not(:last-child) {
+        margin-bottom: 36px;
+    }
+}
+/* для разрешений от 1024px до 1280px */
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .place__paragraph {
+        font-size: 1.1rem;
+        line-height: 1.9;
+    }
+    .place__paragraph:not(:last-child) {
+        margin-bottom: 24px;
+    }
+}
+/* для разрешений от 425px до 1024px */
+@media screen and (max-width: 1023px) {
+    .place__paragraph {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+    .place__paragraph:not(:last-child) {
+        margin-bottom: 24px;
+    }
+}
+
+
+

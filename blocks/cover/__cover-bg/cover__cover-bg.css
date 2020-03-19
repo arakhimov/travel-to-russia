@@ -1,0 +1,26 @@
+.cover__cover-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .5;
+    transition: opacity .5s ease;
+}
+
+
+/* .cover__cover-bg {
+    width: 1184px;
+    height: 594px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: .5;
+    transition: transform .5s ease, box-shadow .5s ease;
+}
+.cover__cover-bg:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 10px #00bfff;
+} */

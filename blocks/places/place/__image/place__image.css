@@ -1,0 +1,24 @@
+.place__image {
+    display: block;
+    height: auto;
+}
+
+/* для разрешения 1280px и выше */
+@media screen and (min-width: 1280px) {
+    .place__image {
+        width: 460px;
+    }
+}
+/* для разрешений от 625px до 1280px */
+@media screen and (min-width: 625px) and (max-width: 1279px) {
+    .place__image {
+        width: 43%;
+    }
+}
+/* для разрешений до 625px */
+@media screen and (max-width: 624px) {
+    .place__image {
+        width: 100vw;
+        margin-bottom: 24px;
+    }
+}

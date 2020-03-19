@@ -1,0 +1,51 @@
+@import url('__quote/intro__quote.css');
+@import url('__text/intro__text.css');
+@import url('__title/intro__title.css');
+
+.intro {
+    font-family: 'Inter', sans-serif;
+}
+
+/* для разрешения 1280px и выше */
+@media screen and (min-width: 1280px) {
+    .intro {
+        max-width: 985px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 102px;
+    }
+}
+/* для разрешений от 1024px до 1280px */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .intro {
+        width: 48%;
+        padding-bottom: 102px;
+        margin-left: 148px;
+    }
+}
+/* для разрешений от 768px до 1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .intro {
+        width: 67.5%;
+        margin-left: 48px;
+        padding-bottom: 80px;
+    }
+}
+/* для разрешений от 425px до 768px */
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .intro {
+        width: calc(100% - 48px);
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 64px;
+    }
+}
+/* для разрешений до 424px */
+@media screen and (max-width: 424px) {
+    .intro {
+        width: calc(100% - 32px);
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 64px;
+    }
+}

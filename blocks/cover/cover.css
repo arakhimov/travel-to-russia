@@ -1,0 +1,55 @@
+@import url('__cover-bg/cover__cover-bg.css');
+@import url('__iframe/cover__iframe.css');
+@import url('__subtitle/cover__subtitle.css');
+@import url('__title/cover__title.css');
+@import url('__iframe-activate/cover__iframe-activate.css');
+@import url('__content-absolute/cover__content-absolute.css');
+@import url('__label/cover__label.css');
+
+.cover {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* для разрешения 1280px и выше */
+@media screen and (min-width: 1280px) {
+    .cover {
+        width: 1184px;
+        height: 594px;
+    }
+}
+/* для разрешений от 1024px до 1280px */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .cover {
+        width: calc(100vw - 96px);
+        height: 594px;
+    }
+}
+/* для разрешений от 768px до 1024px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cover {
+        width: 100vw;
+        padding-bottom: 65%;
+    }
+}
+/* для разрешений от 425px до 768px */
+@media  screen and (max-width: 767px) {
+    .cover {
+        width: 100vw;
+        padding-bottom: 65%;
+    }
+}
+/* для разрешений от 425px до 768px */
+@media  screen and (max-width: 425px) {
+    .cover {
+        padding-bottom: 72%;
+    }
+}
+/* для разрешений от 425px до 768px */
+@media  screen and (max-width: 320px) {
+    .cover {
+        padding-bottom: 67.5%;
+    }
+}

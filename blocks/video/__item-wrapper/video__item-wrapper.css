@@ -1,0 +1,45 @@
+.video__item-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* для разрешения 1280px и выше */
+@media screen and (min-width: 1280px) {
+  .video__item-wrapper {
+      padding: 30px;
+  }
+}
+/* для разрешений от 1024px до 1279px */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .video__item-wrapper {
+      padding: 30px;
+      padding-bottom: 35px;
+  }
+}
+/* для разрешений от 768px до 1024px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .video__item-wrapper {
+      padding: 24px;
+  }
+}
+/* для разрешений от 320px до 768px */
+@media  screen and (min-width: 321px) and (max-width: 767px) {
+  .video__item-wrapper {
+      padding: 24px;
+  }
+}
+
+/* для разрешений до 320px */
+@media  screen and (max-width: 320px) {
+  .video__item-wrapper {
+      padding: 16px;
+  }
+  
+}

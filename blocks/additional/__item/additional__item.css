@@ -1,0 +1,25 @@
+.additional__item {
+    width: 284px;
+    min-height: 330px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: opacity .5 ease;
+}
+.additional__item:hover  .additional__item-bg {
+    opacity: .5;
+}
+/* .additional__item {
+    width: 284px;
+    min-height: 330px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform .5 ease, box-shadow .5s ease;
+}
+.additional__item:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 10px #00bfff;
+} */

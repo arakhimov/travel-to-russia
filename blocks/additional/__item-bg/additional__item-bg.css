@@ -1,0 +1,10 @@
+.additional__item-bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: inherit;
+    height: inherit;
+    display: inline-block;
+    object-fit: none;
+    object-position: center;
+}

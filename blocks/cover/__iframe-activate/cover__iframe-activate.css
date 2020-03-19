@@ -1,0 +1,10 @@
+/* скрываем радиокнопку */
+#cover__iframe-activate {
+    display: none;
+    
+}
+/* если активирована метка на всю ширину экрана, связанная с радиокнопкой, то делаем видимым 
+следующий за ней iframe */
+#cover__iframe-activate:checked  ~ .cover__iframe {
+    z-index: 10;
+}

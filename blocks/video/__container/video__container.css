@@ -1,0 +1,24 @@
+.video__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* для разрешений от 768px до 1024px */
+@media screen and (min-width: 1024px) {
+    .video__container {
+        padding-top: 72px;
+    }
+}
+/* для разрешений от 768px до 1024px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .video__container {
+        padding-top: 56px;
+    }
+}
+/* для разрешений от 425px до 768px */
+@media  screen and (max-width: 767px) {
+    .video__container {
+        padding-top: 24px;
+    }
+}

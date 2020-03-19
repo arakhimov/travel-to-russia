@@ -1,0 +1,56 @@
+.lead__title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #fff;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* для разрешения 1280px и выше */
+@media screen and (min-width: 1280px) {
+    .lead__title {
+        max-width: 782px;
+        padding-bottom: 48px; 
+        font-size: 6rem;
+        line-height: 1;
+    }
+}
+/* для разрешений от 768px до 1280px */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .lead__title {
+        width: 80%;
+        padding-bottom: 48px;
+        font-size: 5rem;
+        line-height: 1;
+    }
+}
+/* для разрешений от 425px до 768px */
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .lead__title {
+        width: calc(100% - 48px);
+        margin-bottom: 8px; 
+        font-size: 2.5rem;
+        line-height: 1.1; 
+    }
+}
+/* для разрешений до 425px */
+@media screen and (max-width: 425px) {
+    .lead__title {
+        width: calc(100% - 32px);
+        margin-bottom: 8px;
+        font-size: 2.5rem;
+        line-height: 1.1; 
+    }
+}
+/* для разрешений до 425px */
+@media screen and (max-width: 320px) {
+    .lead__title {
+        width: calc(100% - 32px);
+        margin-bottom: 8px;
+        font-size: 1.5rem;
+        line-height: 1.1; 
+    }
+}

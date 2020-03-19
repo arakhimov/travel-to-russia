@@ -1,0 +1,34 @@
+.comments__comment {
+    display: flex;
+    flex-direction: column;
+    /* выше - для изменения порядка следования цитаты и автора цитаты для некоторых разрешений */
+}
+
+/* для разрешения 1280px и выше */
+@media screen and (min-width: 1280px) {
+    .comments__comment {
+        width: 382px;
+        padding-top: 72px;
+    }
+}
+/* для разрешений от 768px до 1280px */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .comments__comment {
+        width: calc(100%/3 - 19px);
+        padding-top: 72px;
+    }
+}
+/* для разрешений от 425 до 768px */
+@media  screen and (min-width: 426px) and (max-width: 767px) {
+    .comments__comment {
+        width: calc(100vw - 32px);
+        padding-top: 48px;
+    }
+}
+/* для разрешений до 425px */
+@media  screen and (max-width: 425px) {
+    .comments__comment {
+        width: calc(100vw - 32px);
+        padding-top: 64px;
+    }
+}

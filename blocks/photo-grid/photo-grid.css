@@ -1,0 +1,54 @@
+@import url('__item/photo-grid__item.css');
+
+.photo-grid {
+    font-family: 'Inter', sans-serif;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* для разрешения 1280px и выше */
+@media screen and (min-width: 1280px) {
+    .photo-grid {
+        max-width: 1184px;
+        padding-bottom: 92px;
+        grid-template-columns: repeat(auto-fill, 284px);
+        grid-gap: 16px;
+    }
+}
+/* для разрешений от 1024px до 1280px */
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .photo-grid {
+        width: calc(100vw - 96px);
+        padding-bottom: 102px;
+        grid-template-columns: repeat(auto-fill, calc((100vw - 96px - 28px)/3));
+        grid-gap: 14px;
+    }
+}
+/* для разрешений от 768px до 1024px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .photo-grid {
+        width: calc(100vw - 48px);
+        padding-bottom: 102px;
+        grid-template-columns: repeat(auto-fill, calc((100vw - 48px - 16px)/2));
+        grid-gap: 16px;
+    }
+}
+/* для разрешений от 425px до 768px */
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .photo-grid {
+        width: calc(100vw - 32px);
+        padding-bottom: 64px;
+        grid-template-columns: repeat(auto-fill, calc((100vw - 32px - 16px)/2));
+        grid-gap: 16px;
+    }
+}
+/* для разрешений до 425px */
+@media screen and (max-width: 424px) {
+    .photo-grid {
+        width: calc(100vw - 32px);
+        padding-bottom: 64px;
+        grid-template-columns: repeat(auto-fill, calc(100vw - 32px));
+        grid-gap: 8px;
+    }
+}

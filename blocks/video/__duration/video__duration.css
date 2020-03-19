@@ -1,0 +1,15 @@
+.video__duration {
+    display: block;
+    width: 44px;
+    height: 12px;
+    margin-bottom: 12px;
+    position: relative;
+    z-index: 2;
+}
+
+/* для разрешений от 425px до 768px */
+@media  screen and (max-width: 767px) {
+    .video__duration {
+        margin-bottom: 8px;
+    }
+}
